@@ -1,16 +1,22 @@
-### Hi there 👋
+void main() {
+  Map<String, dynamic> info = {
+    'name': 'Jesus Hernandez',
+    'web': 'https://hfebles.com',
+    'linkedin': '[https://www.linkedin.com/in/hfebles/](https://www.linkedin.com/in/hfebles/)',
+    'code': {
+      'frontend': ['HTML', 'CSS', 'JavaScript', 'Boostrap', 'TailwindCSS', jQuery],
+      'backend': ['PHP', 'Laravel', 'Python'],
+      'database': ['PostgreSQL', 'MySQL', 'Mongo DB'],
+      'devops': ['Docker', 'GNU/Linux'],
+      'tools': [
+        'GIT',
+        'GitHub',
+        'GitLab',
+        'VS Code',
+      ],
+      'learning': ['ReactJs', 'GatsbyJs']
+    },
+  };
 
-<!--
-**hfebles/hfebles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  print(info);
+}
