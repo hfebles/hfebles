@@ -18,7 +18,7 @@ let hfebles = {
       database: ["PostgreSQL", "MySQL", "Mongo DB" ],
       devops: ["Docker", "GNU/Linux" ],
       tools: ["GIT","GitHub","GitLab","VSCode,"Markdown","Jira","Postman" ],
-      learning: ["ReactJs", "GatsbyJs", "TailwindCSS" ],
+      learning: ["ReactJs", "GatsbyJs", "TailwindCSS", Node ],
       misc: ["SCRUM", "SEO", "Speed Insights Google"]
     }
   }
